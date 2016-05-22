@@ -1,4 +1,4 @@
-// implementation file for man stat. base class for 24 though33
+
 
 
 #include <iostream>

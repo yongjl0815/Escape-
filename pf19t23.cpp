@@ -1,4 +1,4 @@
-// implementation file for 19 through 23
+
 
 #include <iostream>
 #include <string>
@@ -18,7 +18,7 @@ void NineteenToTwentythree::nineteenToTwentythree()
 	std::cin >> ans;
 	std::cout << std::endl;
 
-	if (ans == nineteen(5)) // 19. recursion
+	if (ans == nineteen(5)) 
 	{
 		std::cout << "'Congratulation. You are correct. *clap* *clap* *clap*'" << std::endl;
 	}
@@ -28,7 +28,7 @@ void NineteenToTwentythree::nineteenToTwentythree()
 		<< "'Terminate?... ... ... Another chance given. Meat Container is grateful.'" << std::endl;
 	}
 
-	twentyToTwentythree(); // 20. Multidimensional array, 21. Dynamically declared array 23. struct 25. pointer to array 
+	twentyToTwentythree(); 
 }
 
 

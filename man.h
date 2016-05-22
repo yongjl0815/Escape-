@@ -1,4 +1,4 @@
-// header file for man stat. base class for 24 though33
+
 
 #ifndef MAN_H
 #define MAN_H

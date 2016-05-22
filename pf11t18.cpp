@@ -1,4 +1,4 @@
-// implementation file for 11 through 18
+
 
 #include <iostream>
 #include <string>
@@ -7,7 +7,7 @@
 
 void ElevenToEighteen::elevenToEighteen()
 {
-	std::cout << "'Is your system experiencing errors?'" << std::endl // 11. error categories
+	std::cout << "'Is your system experiencing errors?'" << std::endl 
 	<< "'Observing all three errors.'" << std::endl
 	<< "'Syntax error - failing to obey grammatical rule of the world. Obeying to superior beings.'" << std::endl
 	<< "'Logical error - even though processing, unable to provide acceptable answer.'" << std::endl
@@ -16,11 +16,7 @@ void ElevenToEighteen::elevenToEighteen()
 	char ans;
 	int num=1;
 
-	twelve(ans, num); // 13. not pre-defined function
-		  	  // 14. function decomposition
-		  	  // project 3
-		  	  // 15. scope, int ans cannot be used outside of function twelve
-			  // 16. passing mechanism
+	twelve(ans, num); 
 			 
 	std::cout << "'You entered: " << ans << ".'" << std::endl
 	<< "'... ... ...Time faulting. Null answer would've been accepted. We must proceed with the test.'" << std::endl
@@ -28,7 +24,7 @@ void ElevenToEighteen::elevenToEighteen()
 
 	std::cout << "A panel appears from the wall." << std::endl << std::endl;
 
-	sixteenAndSeventeen(); // 17. function overloading
+	sixteenAndSeventeen(); 
 
 	std::cin.ignore(254, '\n');
 
@@ -37,7 +33,7 @@ void ElevenToEighteen::elevenToEighteen()
 
 	std::string mes;
 	
-	std::getline(std::cin, mes); // 18. string variable
+	std::getline(std::cin, mes); 
 
 	std::cout << "'Replaying message.'" << std::endl
 	<< "'" << mes << "'" << std::endl
@@ -55,7 +51,7 @@ void ElevenToEighteen::twelve(char& abc, int z)
 	<< "'Let's test. How many years have you been here?'" << std::endl;
 	std::cin >> abc;
 	
-	while(!isalpha(abc)) // 12. debugging
+	while(!isalpha(abc)) 
 	{
 		std::cout << "'ERROR, you cannot answer when answer is unknown to you.'" << std::endl
 		<< "'Enter a letter to proceed.'" << std::endl;
@@ -66,7 +62,7 @@ void ElevenToEighteen::twelve(char& abc, int z)
 }
 
 
-void ElevenToEighteen::sixteenAndSeventeen() // fixed version of Project 2
+void ElevenToEighteen::sixteenAndSeventeen() 
 {
 
 	char yn;
@@ -80,7 +76,7 @@ void ElevenToEighteen::sixteenAndSeventeen() // fixed version of Project 2
 
 	t=0;
 
-	int d1; // just for function overlaoding 
+	int d1; 
 	int d2;
 	int d3;
 

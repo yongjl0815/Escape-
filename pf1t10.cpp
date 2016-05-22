@@ -1,4 +1,4 @@
-// implementation file containing 1 to 10
+
 #include <iostream>
 #include <string>
 #include <cstdlib>
@@ -8,29 +8,29 @@ void OneToTen::oneToThree()
 {
 	int ans1, ans2;
 	std::cout << "'What is the decimal value of binary number 10100101?'" << std::endl;
-	std::cin >> ans1; // 1. Binary number
+	std::cin >> ans1; 
 	std::cin.ignore(1000, '\n');
 
 	std::cout << "'What is the Two's complement value of binary number 10100101?'" << std::endl;
-	std::cin >> ans2; // 2. Two's complement
+	std::cin >> ans2; 
 	std::cin.ignore(1000, '\n');
 
 	std::cout << "'...You answers irrelevant and...ignored.'" << std::endl
 	<< "'Answers were 165 and -91. Correctness trivial for this test. Your processor functioning. Ready to proceed.'" << std::endl
-	<< "'Meat Container's last memory " <<__DATE__<<"'"<< std::endl << std::endl; // 3. pre-defined macro.
+	<< "'Meat Container's last memory " <<__DATE__<<"'"<< std::endl << std::endl; 
 }
 
 void OneToTen::fourToSix()
 {
-	std::cout << "'Now provide your name and age for the record.'" << std::endl // 4. simple output
+	std::cout << "'Now provide your name and age for the record.'" << std::endl 
 	<< "'Name?'" << std::endl;
-	getline(std::cin, name); // 5. simple input
+	getline(std::cin, name); 
 
 	std::cout << "'Age?' Add a decimal point then 59 for formatting purposes.'" << std::endl;
 	std::cin >> age;
 
 	std::cin.ignore(1000, '\n');
-	std::cout << "'You name is " << name << " and your age is " << static_cast<int>(age) << "'" << std::endl << std::endl; // 6. type casting
+	std::cout << "'You name is " << name << " and your age is " << static_cast<int>(age) << "'" << std::endl << std::endl; 
 }
 
 void OneToTen::sevenToTen()
@@ -45,13 +45,13 @@ void OneToTen::sevenToTen()
 		std::cout << "'Do you want your name to be your description?'" << std::endl;
 		std::cin >> ans;
 
-		if(ans != "10100101") // 7. Conditional, 8. logical operator
+		if(ans != "10100101") 
 		{
 			std::cout << "'Answer not satisfactory, not accepted.'" << std::endl
 			<< "'You must answer using more logical form of communication. 165'" << std::endl;
 		}
 	}
-	while (ans != "10100101"); // 9. Loops
+	while (ans != "10100101"); 
 
 	srand(time(NULL));
 
